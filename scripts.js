@@ -56,20 +56,28 @@ book3Reserve = book3.querySelector(".reserve");
 book3CheckOut = book3.querySelector(".checkout");
 book3CheckIn = book3.querySelector(".checkin");
 
-// checkin.0.color = none
+book1CheckIn.style.color = ""; // Corrected the colour of the check in button
 // bookStatus.0.style.color = bookStatus_MAP.bookStatus.color
 // reserve.0 = bookStatus_MAP.bookStatus.canReserver ? 'enabled' : 'disabled'
 // checkOut.0 = bookStatus_MAP.bookStatus.canCheckout ? 'enabled' : 'disabled'
 // checkIn.0 = bookStatus_MAP.bookStatus.canCheckIn ? 'enabled' : 'disabled'
 
-// checkIn.1.color = none
+book2CheckIn.style.color = "";
 // bookStatus.1.style.color = bookStatus_MAP.bookStatus.color
 // reserve.1 = bookStatus_MAP.bookStatus.canReserver ? 'enabled' : 'disabled'
 // checkOut.1 = bookStatus_MAP.bookStatus.canCheckout ? 'enabled' : 'disabled'
 // checkIn.1 = bookStatus_MAP.bookStatus.canCheckIn ? 'enabled' : 'disabled'
 
-// checkIn.2.color = none
+book3CheckIn.style.color = "";
 // bookStatus.2.style.color = bookStatus_MAP.bookStatus.color
 // reserve.2 = bookStatus_MAP.bookStatus.canReserver ? 'enabled' : 'disabled'
 // checkOut.2 = bookStatus_MAP.bookStatus.canCheckout ? 'enabled' : 'disabled'
 // checkIn.2 = bookStatus_MAP.bookStatus.canCheckIn ? 'enabled' : 'disabled'
+
+// Code to keep for later if needed:
+
+// if (bookStatus.textContent === "overdue") {
+//   bookStatus.style.color = STATUS_MAP.overdue.color;
+// } else if (bookStatus.textContent === "reserved") {
+//   bookStatus.style.color = STATUS_MAP.reserved.color;
+// }
